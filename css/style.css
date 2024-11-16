@@ -6,6 +6,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-weight: 300;
 }
 
 body{
@@ -22,32 +23,43 @@ body{
     padding-left: 15px;
 }
 
-/* MAIN BOX */
-.main-box{
-    background-color: white;
-    width: 60%;
-    margin: 50px auto 0 auto;
-    border-radius: 10px;
-    padding-left: 50px;
-    padding-bottom: 40px;
-}
-
 /* HEADER MAIN BOX */
 .header-main-box{
-    padding-top: 10px;
+    background-color: white;
+    width: 70%;
+    margin: 50px auto 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 7px 0 7px 50px;
 }
 
 .add-button{
     border: 1px solid #D3D8DC;
     border-radius: 5px;
     padding: 5px 10px;
+    font-size: small;
 }
 
 .add-button.task-button{
     background-color: #14AAF5;
 }
 
+/* CONTENT MAIN BOX */
+.content-main-box{
+    background-color: white;
+    width: 70%;
+    margin: 2px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
 /* TASK TITLE */
+.task-title{
+    padding-top: 25px;
+}
+
 .triangle-down{
     width: 17px;
     text-align: center;
@@ -56,6 +68,11 @@ body{
 .title-section{
     font-weight: 700;
     font-size: larger;
+}
+
+/* TASK LINE */
+.task-line{
+    margin-top: 12px;
 }
 
 /* TASK SYMBOL */
@@ -78,12 +95,14 @@ body{
 }
 
 /* TASK TEXT */
-
+.task-text{
+    margin-left: 5px;
+}
 
 /* TASK TAG */
 .task-tag{
     color: white;
-    font-size: small;
+    font-size: x-small;
     border-radius: 25px;
     padding: 4px 8px;
 }
@@ -100,7 +119,7 @@ body{
     background-color: #2CC6AB;
 }
 
-.task-tag.mobile.tag{
+.task-tag.mobile-tag{
     background-color: #FF9B00;
 }
 
