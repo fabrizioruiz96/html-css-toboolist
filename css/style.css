@@ -3,14 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 300;
 }
 
 body{
     background-color: #F6F8F9;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .is-inline-block{
@@ -20,17 +20,22 @@ body{
 /* BANNER */
 #banner{
     background-color: white;
-    padding-left: 15px;
+    padding: 5px 15px;
+}
+
+/* MAIN BOX */
+.main-box{
+    background-color: white;
+    width: 80%;
+    max-width: 1080px;
+    margin: 50px auto 0 auto;
+    border-radius: 10px;
 }
 
 /* HEADER MAIN BOX */
 .header-main-box{
-    background-color: white;
-    width: 70%;
-    margin: 50px auto 0 auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 7px 0 7px 50px;
+    padding: 7px 40px;
+    border-bottom: 2px solid #f6f8f9;
 }
 
 .add-button{
@@ -46,87 +51,69 @@ body{
 
 /* CONTENT MAIN BOX */
 .content-main-box{
-    background-color: white;
-    width: 70%;
-    margin: 2px auto;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-left: 50px;
-    padding-bottom: 50px;
+    padding: 20px 40px 40px;
 }
 
-/* TASK TITLE */
-.task-title{
-    padding-top: 25px;
+/* TODO LIST */
+ul{
+    list-style-type: none;
+    margin-bottom: 30px;
 }
 
-.triangle-down{
-    width: 17px;
-    text-align: center;
+li{
+    padding-top: 10px;
 }
 
-.title-section{
-    font-weight: 700;
-    font-size: larger;
-}
-
-/* TASK LINE */
-.task-line{
-    margin-top: 12px;
-}
-
-/* TASK SYMBOL */
-.task-symbol{
+/* TODO STATUS ICON */
+.todo-status-icon{
     height: 17px;
     width: 17px;
     line-height: 17px;
     text-align: center;
-    border-radius: 100px;
+    border-radius: 100%;
+    border: 1px solid;
+    margin-right: 5px;
 }
 
-.task-symbol.is-check{
+.todo-status-icon.is-check{
     color: #2CC6AB;
-    border: 1px solid #2CC6AB;
+    border-color: #2CC6AB;
 }
 
-.task-symbol.is-cross{
+.todo-status-icon.is-cross{
     color: #FF0000;
-    border: 1px solid #FF0000;
+    border-color: #FF0000;
 }
 
-/* TASK TEXT */
-.task-text{
-    margin-left: 5px;
-}
-
-/* TASK TAG */
-.task-tag{
+/* TODO TAG */
+.todo-tag{
     color: white;
     font-size: x-small;
     border-radius: 25px;
     padding: 4px 8px;
+    margin-left: 5px;
 }
 
-.task-tag.editorial-tag{
+.todo-tag.editorial-tag{
     background-color: #09A9ED;
 }
 
-.task-tag.goal-tag{
+.todo-tag.goal-tag{
     background-color: #AB5DE6;
 }
 
-.task-tag.recruiting-tag{
+.todo-tag.recruiting-tag{
     background-color: #2CC6AB;
 }
 
-.task-tag.mobile-tag{
+.todo-tag.mobile-tag{
     background-color: #FF9B00;
 }
 
-.task-tag.website-tag{
+.todo-tag.website-tag{
     background-color: #EC4A9D;
 }
 
-.task-tag.sales-tag{
+.todo-tag.sales-tag{
     background-color: #A3D116;
 }

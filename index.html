@@ -12,84 +12,64 @@
 
     <body>
         <!-- BANNER -->
-        <div id="banner">
+        <header id="banner">
             <img src="./img/Toboolist-logo.jpg" alt="toboolist-logo" class="banner-logo">
-        </div>
+        </header>
 
-        <!-- <div class="main-box"> -->
+        <div class="main-box">
             <!-- HEADER MAIN BOX -->
             <div class="header-main-box">
-                <p class="add-button task-button is-inline-block">Add Task</p>
-                <p class="add-button section-button is-inline-block">Add Section</p>
+                <button class="add-button task-button is-inline-block">Add Task</button>
+                <button class="add-button section-button is-inline-block">Add Section</button>
             </div>
             
             <div class="content-main-box">
+                
                 <!-- SECTION NEW TASK -->
-                <section id="new-task">
-                    <div class="task-title">
-                        <p class="triangle-down is-inline-block">&dtrif;</p>
-                        <p class="title-section is-inline-block">New Task</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-check is-inline-block">&#10003;</p>
-                        <p class="task-text is-inline-block">Quarterly Newsletter</p>
-                        <p class="task-tag editorial-tag is-inline-block">Editorial</p>
-                    </div>
-                </section>
+                <h3>&#9662 New Task</h3>
+
+                <ul>
+                    <li>
+                        <span class="todo-status-icon is-check is-inline-block">&#10003;</span>Quarterly Newsletter<span class="todo-tag editorial-tag is-inline-block">Editorial</span>
+                    </li>
+                </ul>
+            
                 <!-- SECTION TODAY -->
-                <section id="today">
-                    <div class="task-title">
-                        <p class="triangle-down is-inline-block">&dtrif;</p>
-                        <p class="title-section is-inline-block">Today</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-check is-inline-block">&#10003;</p>
-                        <p class="task-text is-inline-block">Recruiting blog post</p>
-                        <p class="task-tag editorial-tag is-inline-block">Editorial</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-check is-inline-block">&#10003;</p>
-                        <p class="task-text is-inline-block">Mobile app launch</p>
-                        <p class="task-tag goal-tag is-inline-block">Q1 Goals</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-cross is-inline-block">&#10005;</p>
-                        <p class="task-text is-inline-block">Interview John H.</p>
-                        <p class="task-tag recruiting-tag is-inline-block">Recruiting</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-check is-inline-block">&#10003;</p>
-                        <p class="task-text is-inline-block">Summit update to mobile storefronts</p>
-                        <p class="task-tag mobile-tag is-inline-block">Mobile</p>
-                    </div>
-                </section>
+                <h3>&#9662 Today</h3>
+
+                <ul>
+                    <li>
+                        <span class="todo-status-icon is-check is-inline-block">&#10003;</span>Recruiting blog post<span class="todo-tag editorial-tag is-inline-block">Editorial</span>
+                    </li>
+                    <li>
+                        <span class="todo-status-icon is-check is-inline-block">&#10003;</span>Mobile app launch<span class="todo-tag goal-tag is-inline-block">Q1 Goals</span>
+                    </li>
+                    <li>
+                        <span class="todo-status-icon is-cross is-inline-block">&#10005;</span>Interview John H.<span class="todo-tag recruiting-tag is-inline-block">Recruiting</span>
+                    </li>
+                    <li>
+                        <span class="todo-status-icon is-check is-inline-block">&#10003;</span>Summit update to mobile storefronts<span class="todo-tag mobile-tag is-inline-block">Mobile</span>
+                    </li>
+                </ul>
+            
                 <!-- SECTION UPCOMING -->   
-                <section id="upcoming">
-                    <div class="task-title">
-                        <p class="triangle-down is-inline-block">&dtrif;</p>
-                        <p class="title-section is-inline-block">Upcoming</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-cross is-inline-block">&#10005;</p>
-                        <p class="task-text is-inline-block">Schedule meeting with Alex</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-check is-inline-block">&#10003;</p>
-                        <p class="task-text is-inline-block">Homepage refresh</p>
-                        <p class="task-tag website-tag is-inline-block">Website</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-check is-inline-block">&#10003;</p>
-                        <p class="task-text is-inline-block">Onboard new Sales team members</p>
-                        <p class="task-tag sales-tag is-inline-block">Sales</p>
-                    </div>
-                    <div class="task-line">
-                        <p class="task-symbol is-check is-inline-block">&#10003;</p>
-                        <p class="task-text is-inline-block">Review editorial calendar</p>
-                        <p class="task-tag editorial-tag is-inline-block">Editorial</p>
-                    </div>
-                </section>
+                <h3>&#9662 Upcoming</h3>
+
+                <ul>
+                    <li>
+                        <span class="todo-status-icon is-cross is-inline-block">&#10005;</span>Schedule meeting with Alex
+                    </li>
+                    <li>
+                        <span class="todo-status-icon is-check is-inline-block">&#10003;</span>Homepage refresh<span class="todo-tag website-tag is-inline-block">Website</span>
+                    </li>
+                    <li>
+                        <span class="todo-status-icon is-check is-inline-block">&#10003;</span>Onboard new Sales team members<span class="todo-tag sales-tag is-inline-block">Sales</span>
+                    </li>
+                    <li>
+                        <span class="todo-status-icon is-check is-inline-block">&#10003;</span>Review editorial calendar<span class="todo-tag editorial-tag is-inline-block">Editorial</span>
+                    </li>
+                </ul>
             </div>
-        <!-- </div> -->
+        </div>
     </body>
 </html>
